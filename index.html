@@ -11,7 +11,9 @@
     <title>Marlene's profile</title>
   </head>
   <body>
-    <h1> <img src="images/Professional photo - M Eddie.jpg" width = "80" height = "100" class="rounded" alt=""> Marléne Eddie</h1>
+    <div class="jumbotron text-center" style="margin-bottom:0" >
+    <h1> <img src="images/Professional photo - M Eddie.jpg" width = "180" height = "250" class="rounded" alt=""> Marléne Eddie</h1>
+  </div>
     <nav class="navbar navbar-light bg-light">
         <span class="navbar-text">
             Please follow the links for more information: 
@@ -26,4 +28,41 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
+
+  <body data-spy="scroll" data-target="#myScrollspy" data-offset="1">
+
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-sm-3 col-4" id="myScrollspy">
+          <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="#section1">Get To Know Me</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link active" href="#section2">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#section3">Past Projects</a>
+          </li>
+          </ul>
+        </nav>
+        <div class="col-sm-9 col-8">
+          <div id="section1">
+            <h1>About Me</h1>
+            <p>Try to scroll this page and look at the menu while scrolling!</p>
+          </div>
+          <div id="section2">
+            <h1>Education</h1>
+            <p>Try to scroll this page and look at the menu while scrolling!</p>
+          </div>
+          <div id="section3">
+            <h1>Past Projects</h1>
+            <p>Try to scroll this page and look at the menu while scrolling!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </body>
+
 </html>
