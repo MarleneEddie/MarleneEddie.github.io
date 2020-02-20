@@ -1,23 +1,57 @@
 
-.jumbotron
+#jumbo
 {
     /*background: transparent;
 
     
     background-size: cover;
-    width: 100%;
-    height: 350px; */
+    width: 100%; */
+    height: 50%;
     margin-bottom: 0;
     background-image: url(../images/pexels-photo-1470168.jpeg);
-    background-position: 0% 25%;
+    background-position: 0% 15%;
     background-size: cover;
+    flex-wrap: wrap;
+    
     background-repeat: no-repeat;
     
 }
 
-.
-
-#myScrollspy
-{
-    
+#name {
+    padding: 1%;
 }
+
+@media not screen and (max-width:480px)
+{
+    #divpadding
+    {
+        padding: 0px;
+    }
+}
+
+#myPhoto
+{
+    width: 140px;
+    height: 180px;
+    position: relative;
+    float: top;
+
+
+}
+
+
+#divPadding{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+  
+    #fontsize{
+      font-size: 3rem;
+      color:white;
+    }
+    #fullsupport{
+      padding-left: 18px;
+      padding-right: 18px; 
+    }
+  
