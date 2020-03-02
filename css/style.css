@@ -774,3 +774,12 @@ a:active {
     width:100%;
     position:absolute;
 }
+
+#education
+{
+    padding-top: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-bottom: #343a40;
+    border-radius: 1em;
+}
