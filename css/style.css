@@ -783,3 +783,8 @@ a:active {
     border-bottom: #343a40;
     border-radius: 1em;
 }
+
+.tooltip .tooltiptext {
+    top: -5px;
+    left: 105%;
+  }
